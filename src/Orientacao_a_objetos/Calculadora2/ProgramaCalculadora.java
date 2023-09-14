@@ -14,7 +14,10 @@ public class ProgramaCalculadora {
      public static void main(String[] args) {
          Scanner scanner = new Scanner(System.in);
          
-      
+         System.out.println("Escolha uma opção: ");
+         System.out.println("Média aritímetca: ");
+         System.out.println("Média ponderada: ");
+         int opcao = scanner.nextInt();
          
      }
 }

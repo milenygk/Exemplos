@@ -8,22 +8,27 @@ package Orientacao_a_objetos.Calculadora2;
  *
  * @author mileny.1948
  */
-class MediaAritmetica {
+public class CalculadoraMediaAritmetica {
     private double[] valores;
     
-public MediaAritmetica(double[] valores) {
+    public CalculadoraMediaAritmetica() {
+    }
+    
+     public double[] getValores() {
+        return valores;
+    }
+    
+public CalculadoraMediaAritmetica(double[] valores) {
         this.valores = valores;
     }
 
-public double calcularMedia() {
-        if (valores.length == 0) {
-            return 0.0; 
-        }
-
-double soma = 0;
-        for (double valor : valores) 
-            soma += valor;
-        }
-
-            return soma += valores.length;
-    }
+//public double calcularMedia() {
+//        if (valores.length == 0) {
+//            return 0.0; 
+//            double soma = 0;
+//            for (double valor : valores)
+//            soma += valor;
+//        }
+//         return soma += valores.length;
+//        }
+ }
